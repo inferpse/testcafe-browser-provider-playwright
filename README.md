@@ -14,6 +14,6 @@ This plugin provides following browsers to TestCafe when [playwright](https://ww
 Package can be installed from [npm](https://www.npmjs.com/package/testcafe-browser-provider-playwright):
 
 ```
-npm install playwirght --save-dev
+npm install playwright --save-dev
 npm install testcafe-browser-provider-playwright --save-dev
 ```
