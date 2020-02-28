@@ -4,7 +4,7 @@
   "description": "playwright TestCafe browser provider plugin.",
   "keywords": ["testcafe", "browser provider", "plugin"],
   "repository": "https://github.com/inferpse/testcafe-browser-provider-playwright",
-  "h2omepage": "https://github.com/inferpse/testcafe-browser-provider-playwright",
+  "homepage": "https://github.com/inferpse/testcafe-browser-provider-playwright",
   "license": "MIT",
   "author": "inferpse",
   "main": "index"
