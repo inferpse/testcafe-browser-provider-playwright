@@ -5,6 +5,7 @@ module.exports = {
   isMultiBrowser: true,
 
   baseBrowsers: ['chromium', 'firefox', 'webkit'],
+  mobileBrowsers: ['chromium', 'webkit'],
 
   async getBrowserList() {
     const browsers = [];
@@ -12,6 +13,9 @@ module.exports = {
     this.baseBrowsers.forEach(browser => {
       browsers.push(browser);
       browsers.push(`${browser}:headless`);
+    });
+
+    this.mobileBrowsers.forEach(browser => {
       Object.keys(playwright.devices).forEach(device => {
         browsers.push(`${browser}:emulation:device=${device}`);
         browsers.push(`${browser}:headless:emulation:device=${device}`);
