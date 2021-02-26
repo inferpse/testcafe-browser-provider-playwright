@@ -9,6 +9,15 @@ This plugin provides following browsers to TestCafe when [playwright](https://ww
 - `webkit`
 - `webkit:headless`
 
+It also supports mobile device emulation (only with `chromium` and `webkit` engines).
+
+You can see all available browser aliases by running:
+
+```
+testcafe -b playwright
+```
+
+
 ## install
 
 Package can be installed from [npm](https://www.npmjs.com/package/testcafe-browser-provider-playwright):
