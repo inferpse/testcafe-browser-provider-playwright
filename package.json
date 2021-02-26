@@ -2,7 +2,11 @@
   "name": "testcafe-browser-provider-playwright",
   "version": "1.0.2",
   "description": "playwright TestCafe browser provider plugin.",
-  "keywords": ["testcafe", "browser provider", "plugin"],
+  "keywords": [
+    "testcafe",
+    "browser provider",
+    "plugin"
+  ],
   "repository": "https://github.com/inferpse/testcafe-browser-provider-playwright",
   "homepage": "https://github.com/inferpse/testcafe-browser-provider-playwright",
   "license": "MIT",
